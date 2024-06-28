@@ -154,3 +154,4 @@ def get_css() -> str:
 	fixes_css_path = resolve_relative_path('uis/assets/fixes.css')
 	overrides_css_path = resolve_relative_path('uis/assets/overrides.css')
 	return open(fixes_css_path, 'r').read() + open(overrides_css_path, 'r').read()
+ 
